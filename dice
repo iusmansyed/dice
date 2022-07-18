@@ -1,0 +1,22 @@
+var a = ".";
+var b = ". .";
+var c = ". . .";
+var d = ". . . .";
+var e = ". . . . .";
+var f = ". . . . . .";
+var ran = Math.floor(Math.random() * 6 + 1);
+if(ran === 1){
+    alert(a + "\n"+ "1 point" + "\n" + "reload page for again")
+}
+else if(ran === 2){
+    alert(b + "\n"+ "2 point" + "\n" + "reload page for again")
+}
+else if(ran === 3){
+    alert(c+ "\n" + "3 point" + "\n" + "reload page for again")
+}else if(ran === 4){
+    alert(d + "\n"+ "4 point" + "\n" + "reload page for again")
+}else if(ran === 5){
+    alert(e + "\n"+ "5 point" + "\n" + "reload page for again")
+}else if(ran === 6){
+    alert(f + "\n"+ "6 point" + "\n" + "reload page for again")
+}
